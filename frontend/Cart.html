@@ -143,8 +143,9 @@
                 const response = await fetch(url, {
                     method: 'DELETE'
                 });
+                            alert('Item deleted successfully!');
+
                 document.getElementById(`item-${cartItemId}`).remove();
-                alert('Item deleted successfully!');
 
 
 
